@@ -1,0 +1,8 @@
+<div class="main-component blue-circle">
+  <div class="button-container" *ngIf="!Clicked">
+    <button class="nav-button" (click)="buttonClicked()" mat-button [routerLink]="['/Booking']" routerLinkActive="router-link-active" >LETS GO</button>
+  </div>
+    <app-details class="button-container" *ngIf="userAvail" [UserDetails]="UserDetails" (clear)="clearFields($event)"></app-details>
+<router-outlet></router-outlet>
+
+</div>

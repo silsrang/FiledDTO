@@ -1,0 +1,1431 @@
+.blue-text {
+  color: var(--Blue-text);
+}
+
+.orange-text {
+  color: var(--orange-text);
+}
+
+.desktop-content {
+  display: block;
+}
+
+.mobile-content {
+  display: none;
+}
+
+.booking {
+  display: flex;
+  flex-direction: column;
+
+
+  .booking-form-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 11.2% 9.8% 0px 9.14%;
+
+    .booking-info {
+      .booking-header-container {
+        margin-top: 52px;
+
+        .booking-header {
+          font-size: 2.75em;
+          font-weight: bold;
+          line-height: 1.5;
+          margin: 0 0 0;
+        }
+      }
+
+      .booking-para-container {
+        margin-top: 40px;
+
+        .booking-para {
+          margin: 0 0 0;
+          font-size: 1.75em;
+          font-weight: bold;
+          line-height: 1.3;
+        }
+      }
+
+      .booking-image-container {
+        margin-top: 128px;
+
+        .booking-image {
+          height: auto;
+          width: 81.7%;
+        }
+      }
+
+    }
+
+  }
+
+  .info {
+    background-image: url("../../assets/Images/Group 393@2x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+
+    .info-para-container {
+      display: flex;
+      align-items: center;
+      margin: 13.5% 0 12.4% 21.5%;
+
+      .info-para {
+        font-size: 34px;
+        color: #38CCF5;
+      }
+    }
+  }
+
+  .benefit {
+    display: flex;
+    margin: 6.564% 6.027% 5.43% 10.442%;
+
+    .benefit-heading {
+      width: 50%;
+      display: flex;
+      align-items: center;
+
+      .benefit-heading-text {
+        font-size: 2.125em;
+        font-weight: bold;
+        line-height: 1.5;
+        margin: 0 0 0;
+      }
+    }
+
+    .benefit-list {
+      width: 50%;
+
+      .benefits-item {
+        display: flex;
+        margin-bottom: 52px;
+
+        .benefits-item-image {
+          height: 26.85px;
+          width: 36px;
+          margin: 0px 5% 0px 16.43%;
+        }
+
+        .benefits-item-text {
+          font-size: 1.25em;
+          margin: 0;
+        }
+      }
+
+      .benefits-item:nth-last-child(1) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .testamonials {
+    background-image: linear-gradient(#38CCF5, #3ECCF5, #42CCF5, #36C1EE, #119FD6, #2A97BF, #108ABF);
+    display: flex;
+    justify-content: space-around;
+
+    .testamonial-container {
+      display: flex;
+      flex-direction: column;
+      margin: 98px 0px 55px 0px;
+      width: 341px;
+
+      .testamonial-title-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .testamonial-title-image {
+          height: 40.61px;
+          width: 56.85px;
+        }
+
+        .testamonial-title-text-container {
+          width: 237px;
+          height: 89px;
+
+          .testamonial-title-text {
+            color: white;
+            font-size: 24px;
+            margin: 0;
+            line-height: 1.2;
+          }
+        }
+      }
+
+      .testamonial-para-container {
+        margin: 8px 0px 24px 0px;
+
+        .testamonial-para {
+          color: white;
+          font-size: 16px;
+          margin: 0;
+          line-height: 1.5;
+        }
+      }
+
+      .testamonial-user-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .testamonial-user-image {
+          height: 109px;
+          width: 109px;
+          object-fit: cover;
+          border-radius: 100%;
+        }
+
+        .testamonial-user-title {
+          width: 193px;
+          height: 62px;
+
+          .testamonial-user-name {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+          }
+
+          .testamonial-user-role {
+            color: white;
+            font-size: 16px;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .desktop-content {
+    display: block;
+  }
+
+  .mobile-content {
+    display: none;
+
+  }
+
+  .booking {
+    display: flex;
+    flex-direction: column;
+
+    .booking-form-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 211.5px 9.8% 0px 9.14%;
+
+      .booking-info {
+        .booking-header-container {
+          margin-top: 52px;
+
+          .booking-header {
+            font-size: 2.75em;
+            font-weight: bold;
+            line-height: 1.5;
+            margin: 0 0 0;
+          }
+        }
+
+        .booking-para-container {
+          margin-top: 40px;
+
+          .booking-para {
+            margin: 0 0 0;
+            font-size: 1.75em;
+            font-weight: bold;
+            line-height: 1.3;
+          }
+        }
+
+        .booking-image-container {
+          margin-top: 128px;
+
+          .booking-image {
+            height: auto;
+            width: 81.7%;
+          }
+        }
+
+      }
+
+    }
+
+    .info {
+      background-image: url("../../assets/Images/Group 393@2x.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 100%;
+
+      .info-para-container {
+        display: flex;
+        align-items: center;
+        margin: 13.5% 0 12.4% 21.5%;
+
+        .info-para {
+          font-size: 34px;
+          color: #38CCF5;
+        }
+      }
+    }
+
+    .benefit {
+      display: flex;
+      margin: 6.564% 6.027% 5.43% 10.442%;
+
+      .benefit-heading {
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+        .benefit-heading-text {
+          font-size: 2.125em;
+          font-weight: bold;
+          line-height: 1.5;
+          margin: 0 0 0;
+        }
+      }
+
+      .benefit-list {
+        width: 50%;
+
+        .benefits-item {
+          display: flex;
+          margin-bottom: 52px;
+
+          .benefits-item-image {
+            height: 26.85px;
+            width: 36px;
+            margin: 0px 5% 0px 16.43%;
+          }
+
+          .benefits-item-text {
+            font-size: 1.25em;
+            margin: 0;
+          }
+        }
+
+        .benefits-item:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .testamonials {
+      background-image: linear-gradient(#38CCF5, #3ECCF5, #42CCF5, #36C1EE, #119FD6, #2A97BF, #108ABF);
+      display: flex;
+      justify-content: space-around;
+
+      .testamonial-container {
+        display: flex;
+        flex-direction: column;
+        margin: 98px 0px 55px 0px;
+        width: 341px;
+
+        .testamonial-title-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .testamonial-title-image {
+            height: 40.61px;
+            width: 56.85px;
+          }
+
+          .testamonial-title-text-container {
+            width: 237px;
+            height: 89px;
+
+            .testamonial-title-text {
+              color: white;
+              font-size: 24px;
+              margin: 0;
+              line-height: 1.2;
+            }
+          }
+        }
+
+        .testamonial-para-container {
+          margin: 8px 0px 24px 0px;
+
+          .testamonial-para {
+            color: white;
+            font-size: 16px;
+            margin: 0;
+            line-height: 1.5;
+          }
+        }
+
+        .testamonial-user-container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+
+          .testamonial-user-image {
+            height: 109px;
+            width: 109px;
+            object-fit: cover;
+            border-radius: 100%;
+          }
+
+          .testamonial-user-title {
+            width: 193px;
+            height: 62px;
+
+            .testamonial-user-name {
+              color: white;
+              font-size: 18px;
+              font-weight: bold;
+            }
+
+            .testamonial-user-role {
+              color: white;
+              font-size: 16px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .desktop-content {
+    display: block;
+  }
+
+  .mobile-content {
+    display: none;
+
+  }
+
+  .booking {
+    display: flex;
+    flex-direction: column;
+
+    .booking-form-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 131.5px 9.8% 0px 9.14%;
+
+      .booking-info {
+        .booking-header-container {
+          margin-top: 22px;
+
+          .booking-header {
+            font-size: 1.75em;
+            font-weight: bold;
+            line-height: 1.5;
+            margin: 0 0 0;
+          }
+        }
+
+        .booking-para-container {
+          margin-top: 20px;
+
+          .booking-para {
+            margin: 0 0 0;
+            font-size: 1.15em;
+            font-weight: bold;
+            line-height: 1.3;
+          }
+        }
+
+        .booking-image-container {
+          margin-top: 77px;
+
+          .booking-image {
+            height: auto;
+            width: 81.7%;
+          }
+        }
+
+      }
+
+    }
+
+    .info {
+      background-image: url("../../assets/Images/Group 393@2x.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 100%;
+
+      .info-para-container {
+        display: flex;
+        align-items: center;
+        margin: 13.5% 0 12.4% 21.5%;
+
+        .info-para {
+          font-size: 1.7em;
+          color: #38CCF5;
+        }
+      }
+    }
+
+    .benefit {
+      display: flex;
+      margin: 6.564% 6.027% 5.43% 10.442%;
+
+      .benefit-heading {
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+        .benefit-heading-text {
+          font-size: 1.5em;
+          font-weight: bold;
+          line-height: 1.5;
+          margin: 0 0 0;
+        }
+      }
+
+      .benefit-list {
+        width: 50%;
+
+        .benefits-item {
+          display: flex;
+          margin-bottom: 52px;
+
+          .benefits-item-image {
+            height: 20.85px;
+            width: 30px;
+            margin: 0px 5% 0px 10.43%;
+          }
+
+          .benefits-item-text {
+            font-size: 1.1em;
+            margin: 0;
+          }
+        }
+
+        .benefits-item:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .testamonials {
+      background-image: linear-gradient(#38CCF5, #3ECCF5, #42CCF5, #36C1EE, #119FD6, #2A97BF, #108ABF);
+      display: flex;
+      justify-content: space-around;
+
+      .testamonial-container {
+        display: flex;
+        flex-direction: column;
+        margin: 88px 0px 45px 0px;
+        width: 312px;
+
+        .testamonial-title-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .testamonial-title-image {
+            height: 30.61px;
+            width: 47.85px;
+          }
+
+          .testamonial-title-text-container {
+            width: 224px;
+            height: 78px;
+
+            .testamonial-title-text {
+              color: white;
+              font-size: 20px;
+              margin: 0;
+              line-height: 1.2;
+            }
+          }
+        }
+
+        .testamonial-para-container {
+          margin: 6px 0px 19px 0px;
+
+          .testamonial-para {
+            color: white;
+            font-size: 15px;
+            margin: 0;
+            line-height: 1.5;
+          }
+        }
+
+        .testamonial-user-container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+
+          .testamonial-user-image {
+            height: 89px;
+            width: 89px;
+            object-fit: cover;
+            border-radius: 100%;
+          }
+
+          .testamonial-user-title {
+            width: 180px;
+            height: 62px;
+
+            .testamonial-user-name {
+              color: white;
+              font-size: 16px;
+              font-weight: bold;
+            }
+
+            .testamonial-user-role {
+              color: white;
+              font-size: 14px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .desktop-content {
+    display: block;
+  }
+
+  .mobile-content {
+    display: none;
+
+  }
+
+  .booking {
+    display: flex;
+    flex-direction: column;
+
+    .booking-form-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 131.5px 9.8% 0px 9.14%;
+
+      .booking-info {
+        .booking-header-container {
+          margin-top: 22px;
+
+          .booking-header {
+            font-size: 1.75em;
+            font-weight: bold;
+            line-height: 1.5;
+            margin: 0 0 0;
+          }
+        }
+
+        .booking-para-container {
+          margin-top: 20px;
+
+          .booking-para {
+            margin: 0 0 0;
+            font-size: 1.15em;
+            font-weight: bold;
+            line-height: 1.3;
+          }
+        }
+
+        .booking-image-container {
+          margin-top: 77px;
+
+          .booking-image {
+            height: auto;
+            width: 81.7%;
+          }
+        }
+
+      }
+
+    }
+
+    .info {
+      background-image: url("../../assets/Images/Group 393@2x.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 100%;
+
+      .info-para-container {
+        display: flex;
+        align-items: center;
+        margin: 13.5% 0 12.4% 21.5%;
+
+        .info-para {
+          font-size: 1.4em;
+          color: #38CCF5;
+        }
+      }
+    }
+
+    .benefit {
+      display: flex;
+      margin: 6.564% 6.027% 5.43% 10.442%;
+
+      .benefit-heading {
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+        .benefit-heading-text {
+          font-size: 1.5em;
+          font-weight: bold;
+          line-height: 1.5;
+          margin: 0 0 0;
+        }
+      }
+
+      .benefit-list {
+        width: 50%;
+
+        .benefits-item {
+          display: flex;
+          margin-bottom: 32px;
+
+          .benefits-item-image {
+            height: 15.85px;
+            width: 25px;
+            margin: 0px 3% 0px 2.43%;
+          }
+
+          .benefits-item-text {
+            font-size: 1em;
+            margin: 0;
+          }
+        }
+
+        .benefits-item:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .testamonials {
+      background-image: linear-gradient(#38CCF5, #3ECCF5, #42CCF5, #36C1EE, #119FD6, #2A97BF, #108ABF);
+      display: flex;
+      justify-content: space-around;
+
+      .testamonial-container {
+        display: flex;
+        flex-direction: column;
+        margin: 78px 0px 35px 0px;
+        width: 269px;
+
+        .testamonial-title-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .testamonial-title-image {
+            height: 25.61px;
+            width: 43.85px;
+          }
+
+          .testamonial-title-text-container {
+            width: 195px;
+            height: 73px;
+
+            .testamonial-title-text {
+              color: white;
+              font-size: 20px;
+              margin: 0;
+              line-height: 1.2;
+            }
+          }
+        }
+
+        .testamonial-para-container {
+          margin: 6px 0px 19px 0px;
+
+          .testamonial-para {
+            color: white;
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.5;
+          }
+        }
+
+        .testamonial-user-container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+
+          .testamonial-user-image {
+            height: 67px;
+            width: 67px;
+            object-fit: cover;
+            border-radius: 100%;
+          }
+
+          .testamonial-user-title {
+            width: 175px;
+            height: 48px;
+
+            .testamonial-user-name {
+              color: white;
+              font-size: 14px;
+              font-weight: bold;
+            }
+
+            .testamonial-user-role {
+              color: white;
+              font-size: 12px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .booking {
+    display: flex;
+    flex-direction: column;
+
+    .desktop-content {
+      display: none;
+    }
+
+    .mobile-content {
+      display: block;
+    }
+
+
+
+    .booking-form-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 23px 9.8% 24px 7.14%;
+
+      .booking-info {
+        .booking-header-container {
+          margin-top: 0px;
+
+          .booking-header {
+            font-size: 3.25em;
+            font-weight: bold;
+            line-height: 1.5;
+            margin: 0 0 0;
+            text-align: center;
+          }
+        }
+
+        .booking-para-container {
+          margin-top: 9px;
+
+          .booking-para {
+            margin: 0 0 0;
+            font-size: 2em;
+            font-weight: 500;
+            text-align: center;
+            line-height: 1.3;
+          }
+        }
+
+        .booking-image-container {
+          margin-top: 77px;
+          display: none;
+
+          .booking-image {
+            height: auto;
+            width: 81.7%;
+          }
+        }
+
+      }
+
+    }
+
+    .info {
+      background-image: url("../../assets/Images/Group 391@2x.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 100%;
+
+      .info-para-container {
+        display: flex;
+        align-items: center;
+        margin: 17.5% 18% 22.4% 7.5%;
+
+        .info-para {
+          font-size: 53px;
+          font-weight: 500;
+          line-height: 1.4;
+          color: #38CCF5;
+        }
+      }
+    }
+
+    .benefit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 6.564% 0 5.43% 0;
+      background-image: url("../../assets/Images/Group 61@2x.png");
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-size: auto 27%;
+
+      .benefit-heading {
+        width: 56%;
+        display: flex;
+        text-align: center;
+        margin-bottom: 26px;
+
+        .benefit-heading-text {
+          font-size: 4.3em;
+          font-weight: bold;
+          line-height: 1.5;
+          margin: 0 9px 8px;
+        }
+      }
+
+      .benefit-list {
+        width: 84%;
+        margin: 0 30px 0;
+
+        .benefits-item {
+          display: flex;
+          margin-bottom: 32px;
+
+          .benefits-item-image {
+            height: 26.85px;
+            width: 38px;
+            margin: 0px 5% 0px 0%;
+          }
+
+          .benefits-item-text {
+            font-size: 2em;
+            line-height: 1;
+            margin: 0;
+          }
+        }
+
+        .benefits-item:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .testamonials {
+      background-image: linear-gradient(#38CCF5, #3ECCF5, #42CCF5, #36C1EE, #119FD6, #2A97BF, #108ABF);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      .testamonial-container {
+        display: flex;
+        flex-direction: column;
+        margin: 65px 0px 20px 0px;
+        width: 433px;
+
+        .testamonial-title-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .testamonial-title-image {
+            height: 72.61px;
+            width: 106.85px;
+          }
+
+          .testamonial-title-text-container {
+            width: 288px;
+            height: 101px;
+
+            .testamonial-title-text {
+              color: white;
+              font-size: 34px;
+              margin: 0;
+              line-height: 1.2;
+            }
+          }
+        }
+
+        .testamonial-para-container {
+          margin: 6px 0px 19px 0px;
+
+          .testamonial-para {
+            color: white;
+            font-size: 23px;
+            margin: 0;
+            line-height: 1.5;
+          }
+        }
+
+        .testamonial-user-container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+
+          .testamonial-user-image {
+            height: 150px;
+            width: 150px;
+            object-fit: cover;
+            border-radius: 100%;
+          }
+
+          .testamonial-user-title {
+            width: 223px;
+            height: 81px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .testamonial-user-name {
+              color: white;
+              font-size: 34px;
+              font-weight: bold;
+            }
+
+            .testamonial-user-role {
+              color: white;
+              font-size: 23px;
+              line-height: 1.5;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .booking {
+    display: flex;
+    flex-direction: column;
+
+    .desktop-content {
+      display: none;
+    }
+
+    .mobile-content {
+      display: block;
+    }
+
+    .booking-form-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 23px 9.8% 24px 7.14%;
+
+      .booking-info {
+        .booking-header-container {
+          margin-top: 0px;
+
+          .booking-header {
+            font-size: 2.25em;
+            font-weight: bold;
+            line-height: 1.5;
+            margin: 0 0 0;
+            text-align: center;
+          }
+        }
+
+        .booking-para-container {
+          margin-top: 9px;
+
+          .booking-para {
+            margin: 0 0 0;
+            font-size: 1.44em;
+            font-weight: 500;
+            text-align: center;
+            line-height: 1.3;
+          }
+        }
+
+        .booking-image-container {
+          margin-top: 77px;
+          display: none;
+
+          .booking-image {
+            height: auto;
+            width: 81.7%;
+          }
+        }
+
+      }
+
+    }
+
+    .info {
+      background-image: url("../../assets/Images/Group 391@2x.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 100%;
+
+      .info-para-container {
+        display: flex;
+        align-items: center;
+        margin: 17.5% 18% 22.4% 7.5%;
+
+        .info-para {
+          font-size: 40px;
+          font-weight: 500;
+          line-height: 1.4;
+          color: #38CCF5;
+        }
+      }
+    }
+
+    .benefit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 6.564% 0 5.43% 0;
+      background-image: url("../../assets/Images/Group 61@2x.png");
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-size: auto 27%;
+
+      .benefit-heading {
+        width: 56%;
+        display: flex;
+        text-align: center;
+        margin-bottom: 26px;
+
+        .benefit-heading-text {
+          font-size: 2.5em;
+          font-weight: bold;
+          line-height: 1.5;
+          margin: 0 9px 8px;
+        }
+      }
+
+      .benefit-list {
+        width: 84%;
+        margin: 0 30px 0;
+
+        .benefits-item {
+          display: flex;
+          margin-bottom: 32px;
+
+          .benefits-item-image {
+            height: 26.85px;
+            width: 38px;
+            margin: 0px 5% 0px 0%;
+          }
+
+          .benefits-item-text {
+            font-size: 1.4em;
+            margin: 0;
+          }
+        }
+
+        .benefits-item:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .testamonials {
+      background-image: linear-gradient(#38CCF5, #3ECCF5, #42CCF5, #36C1EE, #119FD6, #2A97BF, #108ABF);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      .testamonial-container {
+        display: flex;
+        flex-direction: column;
+        margin: 65px 0px 20px 0px;
+        width: 433px;
+
+        .testamonial-title-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .testamonial-title-image {
+            height: 72.61px;
+            width: 106.85px;
+          }
+
+          .testamonial-title-text-container {
+            width: 288px;
+            height: 101px;
+
+            .testamonial-title-text {
+              color: white;
+              font-size: 34px;
+              margin: 0;
+              line-height: 1.2;
+            }
+          }
+        }
+
+        .testamonial-para-container {
+          margin: 6px 0px 19px 0px;
+
+          .testamonial-para {
+            color: white;
+            font-size: 23px;
+            margin: 0;
+            line-height: 1.5;
+          }
+        }
+
+        .testamonial-user-container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+
+          .testamonial-user-image {
+            height: 150px;
+            width: 150px;
+            object-fit: cover;
+            border-radius: 100%;
+          }
+
+          .testamonial-user-title {
+            width: 223px;
+            height: 81px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .testamonial-user-name {
+              color: white;
+              font-size: 34px;
+              font-weight: bold;
+            }
+
+            .testamonial-user-role {
+              color: white;
+              font-size: 23px;
+              line-height: 2;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .desktop-content {
+    display: none;
+  }
+
+  .mobile-content {
+    display: block;
+  }
+
+  .booking {
+    display: flex;
+    flex-direction: column;
+
+    .booking-form-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 23px 9.8% 24px 7.14%;
+
+      .booking-info {
+        .booking-header-container {
+          margin-top: 0px;
+
+          .booking-header {
+            font-size: 2.25em;
+            font-weight: bold;
+            line-height: 1.5;
+            margin: 0 0 0;
+            text-align: center;
+          }
+        }
+
+        .booking-para-container {
+          margin-top: 9px;
+
+          .booking-para {
+            margin: 0 0 0;
+            font-size: 1.44em;
+            font-weight: 500;
+            text-align: center;
+            line-height: 1.3;
+          }
+        }
+
+        .booking-image-container {
+          margin-top: 77px;
+          display: none;
+
+          .booking-image {
+            height: auto;
+            width: 81.7%;
+          }
+        }
+
+      }
+
+    }
+
+    .info {
+      background-image: url("../../assets/Images/Group 391@2x.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 100%;
+
+      .info-para-container {
+        display: flex;
+        align-items: center;
+        margin: 17.5% 8% 22.4% 7.5%;
+
+        .info-para {
+          font-size: 22px;
+          font-weight: 500;
+          line-height: 1.4;
+          color: #38CCF5;
+        }
+      }
+    }
+
+    .benefit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 6.564% 0 5.43% 0;
+      background-image: url("../../assets/Images/Group 61@2x.png");
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-size: auto 27%;
+
+      .benefit-heading {
+        width: 56%;
+        display: flex;
+        text-align: center;
+        margin-bottom: 26px;
+
+        .benefit-heading-text {
+          font-size: 1.5em;
+          font-weight: bold;
+          line-height: 1.5;
+          margin: 0 9px 8px;
+        }
+      }
+
+      .benefit-list {
+        width: 84%;
+        margin: 0 30px 0;
+
+        .benefits-item {
+          display: flex;
+          margin-bottom: 32px;
+
+          .benefits-item-image {
+            height: 14.85px;
+            width: 19px;
+            margin: 0px 9% 0px 0%;
+          }
+
+          .benefits-item-text {
+            font-size: 1em;
+            margin: 0;
+          }
+        }
+
+        .benefits-item:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .testamonials {
+      background-image: linear-gradient(#38CCF5, #3ECCF5, #42CCF5, #36C1EE, #119FD6, #2A97BF, #108ABF);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      .testamonial-container {
+        display: flex;
+        flex-direction: column;
+        margin: 65px 0px 20px 0px;
+        width: 269px;
+
+        .testamonial-title-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .testamonial-title-image {
+            height: 40.61px;
+            width: 56.85px;
+          }
+
+          .testamonial-title-text-container {
+            width: 195px;
+            height: 73px;
+
+            .testamonial-title-text {
+              color: white;
+              font-size: 20px;
+              margin: 0;
+              line-height: 1.2;
+            }
+          }
+        }
+
+        .testamonial-para-container {
+          margin: 6px 0px 19px 0px;
+
+          .testamonial-para {
+            color: white;
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.5;
+          }
+        }
+
+        .testamonial-user-container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+
+          .testamonial-user-image {
+            height: 88px;
+            width: 88px;
+            object-fit: cover;
+            border-radius: 100%;
+          }
+
+          .testamonial-user-title {
+            width: 149px;
+            height: 52px;
+
+            .testamonial-user-name {
+              color: white;
+              font-size: 14px;
+              font-weight: bold;
+            }
+
+            .testamonial-user-role {
+              color: white;
+              font-size: 12px;
+              line-height: 2;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

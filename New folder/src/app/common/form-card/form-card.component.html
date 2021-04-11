@@ -1,0 +1,73 @@
+<mat-card class="forms-card" >
+  <div class="first-form" *ngIf="!started">
+    <div class="form-card-header center-text desktop-content">
+      <h1  class="form-card-header-text "> Let's Start</h1>
+    </div>
+    <div class="form-card-para  center-text">
+      <p class="form-card-para-text desktop-content ">Fill out the form and we'll get in touch to <br> get your trial set up.</p>
+      <p class="form-card-para-text mobile-content blue-text">Fill out the form and we'll <br> get in touch soon.</p>
+    </div>
+    <div class="form-card-forms" [formGroup]="adForm">
+  
+      <div class="forms-radio">
+        <label class="form-label">Do you want to make ads that convert?</label>
+        <mat-radio-group aria-label="Select an option" formControlName="convert">
+          <mat-radio-button value="Yes">Yes</mat-radio-button>
+          <mat-radio-button value="No">No</mat-radio-button>
+        </mat-radio-group>
+  
+      </div>
+      <div class="forms-budget">
+        <label class="form-label">What's your monthly ad budget?</label>
+  
+        <mat-form-field appearance="outline" >
+  
+          <mat-select formControlName="fisrtBudget" placeholder="Select" >
+            <mat-option *ngFor="let Amount of Amounts" [value]="Amount.amount">{{Amount.amount}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+    <div>
+      <button class="forms-button" mat-button (click)="getStarted()" [disabled]="adForm.invalid">GET STARTED</button>
+    </div>
+  </div>
+  <div class="second-form" *ngIf="started">
+    <div class="form-card-header center-text desktop-content">
+      <h1  class="form-card-header-text"> we'll get in touch to get your trial <br> set up.</h1>
+    </div>
+    <div class="form-card-para center-text">
+      <p class="form-card-para-text desktop-content">Fill Out Form</p>
+      <p class="form-card-para-text mobile-content blue-text">Fill Out Details</p>
+
+    </div>
+    <div class="form-card-forms" [formGroup]="userForm">
+      <div class="user-name input-alignment">
+        <mat-form-field appearance="outline" class="half-width">
+          <input matInput type="text" placeholder="Fisrt Name" formControlName="fistName" >
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="half-width">
+          <input matInput type="text" placeholder="Second Name" formControlName="secondName">
+        </mat-form-field>
+      </div>
+      <div class="email input-alignment">
+        <mat-form-field appearance="outline" class="full-width ">
+          <input matInput type="email" placeholder="Work Email" formControlName="email">
+        </mat-form-field>
+      </div>
+      <div class="budget input-alignment">
+        <mat-form-field appearance="outline" class="full-width">
+          <input matInput type="number" placeholder="Monthly Advertising Budget" formControlName="secondBudget">
+        </mat-form-field>
+      </div>
+      <div class="budget input-alignment">
+        <mat-form-field appearance="outline" class="full-width">
+          <input matInput type="number" placeholder="Monthly Advertising Budget" formControlName="PhoneNo">
+        </mat-form-field>
+      </div>
+    </div>
+    <div>
+      <button class="forms-button" mat-button (click)="submit()" [disabled]="userForm.invalid">GET FREE TRIAL</button>
+    </div>
+  </div>
+</mat-card>

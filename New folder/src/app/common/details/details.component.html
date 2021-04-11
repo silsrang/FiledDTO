@@ -1,0 +1,16 @@
+<mat-card class="details-card">
+    <div class="details-row">
+        <h1 class="details-header">{{UserDetails.fistName}}</h1>
+        <h1 class="details-header details-spacing">{{UserDetails.secondName}}</h1>
+    </div>
+    <div class="details-colum">
+        <p class="details-text">email:{{UserDetails.email}}</p>
+        <p class="details-text">Phone:{{UserDetails.PhoneNo}}</p>
+        <p class="details-text">Convert Ads.:{{UserDetails.convert}}</p>
+        <p class="details-text">Budget Range:{{UserDetails.fisrtBudget}}</p>
+        <p class="details-text">Budget:{{UserDetails.secondBudget}}</p>
+    </div>
+    <div class="button-align">
+      <button mat-button class="clear-button" (click)="clearDetails()">Clear Fields</button>
+    </div>
+  </mat-card>
